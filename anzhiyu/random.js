@@ -1,4 +1,4 @@
-var posts=["2024/04/18/hello-world/","2024/04/19/侧边栏添加个性时钟/","2024/04/19/test/"];function toRandomPost(){
+var posts=["2024/04/18/hello-world/","2024/04/19/test/","2024/04/19/侧边栏添加个性时钟/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
