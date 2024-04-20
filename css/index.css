@@ -22086,6 +22086,21 @@ body:has(#console.show) #nav-music .aplayer .aplayer-lrc .aplayer-lrc-contents {
     font-size: 25px;
     transform: rotate(0deg);
 }
+/*首页顶部相关配置修复*/
+@media screen and (min-width: 768px) {
+    div#bannerGroup{
+      width: calc(50% - .05rem) !important;
+    }
+    .topGroup{
+      width: calc(50% + 1.5rem) !important;
+    }
+    .topGroup .recent-post-item{
+      width: calc(96% / 3 + .06rem) !important;
+    }
+    .topGroup .todayCard{
+      width: calc(100% - .5rem) !important;
+    }
+  }
 body[data-type="essay"] #page {
   border: 0;
   box-shadow: none !important;
