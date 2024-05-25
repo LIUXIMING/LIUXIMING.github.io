@@ -2667,8 +2667,8 @@ i.anzhiyu-icon-hashtag {
   --tab-botton-bg: #f0f0f0;
   --tab-botton-color: #1f2d3d;
   --tab-button-hover-bg: #dcdcdc;
-  --tab-button-active-bg: rgba(255,255,255,0.9);
-  --card-bg: rgba(255,255,255,0.9);
+  --tab-button-active-bg: #fff;
+  --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
   --btn-hover-color: #ff7242;
   --btn-color: #fff;
@@ -2768,7 +2768,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-card-bg: #fff;
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
-  --anzhiyu-card-border: rgba(255,255,255,0.9);
+  --anzhiyu-card-border: #e3e8f7;
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-wihite-font: #fff;
@@ -2808,7 +2808,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-card-bg: #1d1e22;
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
-  --anzhiyu-card-border: rgba(255,255,255,0.9);
+  --anzhiyu-card-border: #e3e8f7;
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-wihite-font: #f6f6f6;
@@ -10407,13 +10407,6 @@ h1.page-title + .tag-cloud-list {
     z-index: 3;
     margin-top: -1px;
   }
-}
-#footer:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  content: '';
 }
 #footer-bar {
   padding: 1rem;
@@ -20276,7 +20269,7 @@ div#category {
 
 /*夜间模式伪类遮罩层透明*/
 [data-theme="dark"] #recent-posts > .recent-post-item {
-  background: #121212;
+  background: rgba(0,0,0,0.4);
 }
 
 [data-theme="dark"] .card-widget {
